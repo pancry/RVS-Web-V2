@@ -1,5 +1,18 @@
 @CHARSET "ISO-8859-1";
 
+.hr-custom-top {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-top: 10px solid #eee;
+}
+
+.hr-custom-bottom {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border-top: 10px solid #eee;
+}
+
+
 /* footer styles
 -------------------------------------------------- */
 .footer-custom {
@@ -9,7 +22,6 @@
   /* Set the fixed height of the footer here */
   /* height: 60px;*/
   background-color: #000000;
-  color: #fff;
 }
 
 .footer-custom-about {
@@ -19,20 +31,81 @@
   /* Set the fixed height of the footer here */
   /* height: 60px;*/
   background-color: #000000;
-  color: #fff;
 }
 
 .footer-custom a,
 .footer-custom-about a {
-  color: #e90331;
+  color: #d4d4d4;
 }
 .footer-custom a:hover, 
 .footer-custom-about a:hover {
-	color: #FFA98E;
+	color: #d4d4d4;
+	text-decoration: none;
 }
-#footer-info-custom {
-  font-size:8pt;
-  margin-top: 5px;
+.copyright {
+  font-size:10pt;
+  margin-top: 10px;
+  color: #d4d4d4;
+  font-family: 'Calibri';
+}
+.footer-font {
+  font-size:9pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #d4d4d4;
+  font-family: 'Calibri';
+}
+
+.semifooter-font {
+  color:#555;
+  font-family: 'Calibri';
+}
+
+.semifooter-font a,
+.semifooter-font a:hover{
+  color:#555;
+  font-size:12pt;
+  text-decoration: none;
+}
+
+.semifooter-heading-font{
+  color:#0080ff;
+  font-size:14pt;
+  font-family: 'Calibri';
+  font-weight: bold;
+}
+
+.page-heading-font {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #004080;
+  font-family: 'Calibri';
+}
+
+.section-heading-font {
+  font-family: inherit;
+  /*font-weight: 500;*/
+  line-height: 1.1;
+  color: #0080ff;
+  font-family: 'Calibri';
+}
+
+.paragraph-content-font {
+  font-family: 'Calibri';
+  font-weight: 100;
+  line-height: 1.1;
+  color: #808080;
+  font-size: 16pt;
+}
+
+
+.paragraph-content-font-maillink {
+  font-family: 'Calibri';
+  font-weight: 100;
+  line-height: 1.1;
+  color: #808080;
+  font-size: 12pt;
 }
 
 /* solution Section
@@ -41,10 +114,11 @@
 .solution-heading-font {
   margin-top: 25px;
   margin-bottom: 15px;
-  font-size: 44px;
-  color: #BA1111;
+  font-size: 40pt;
+  color: #004080;
   position: relative;
-  font-weight: 600;
+  font-family: 'Calibri';
+  font-weight: 400;
   /*font-family: 'Glyphicons Halflings';
   font-family: 'Raleway', sans-serif;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; --defaullt from bootstrap
